@@ -52,8 +52,7 @@ Technical Implementation
 
 Core Class: TemporalFeedbackSystem
 
-
-class TemporalFeedbackSystem:
+    class TemporalFeedbackSystem:
 
     """System integrating future projections as feedback"""
     

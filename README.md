@@ -28,7 +28,7 @@ Rather than attempting to directly simulate multiple temporal dimensions (a theo
 
 The system does not violate causality because it has no access to the real future, only to a statistical estimate based on its internal model.
 
-Formalism
+## Formalism
 
 Given a system with state S(t), its evolution with predictive feedback is:
 
@@ -85,7 +85,7 @@ Analysis Metrics
 
     Efficiency: Trade-off between stability and convergence speed
 
-Experimental Results
+## Experimental Results
 
 Key Finding 1: Existence of an Optimal α
 
@@ -124,4 +124,66 @@ In Theoretical Physics
     Exploration of advanced-retarded differential equations
 
     Models of systems with non-Markovian memory
+
+## How to Run the Experiment
+
+Installation
+
+    git clone https://github.com/meltigator/QQ3DT.git
+    cd QQ3DT
+    pip install -r requirements.txt
+
+Basic Experiments
+
+    # Experiment 1: Comparison between different α values
+    jupyter notebook notebook_1_alpha_comparison.ipynb
+    
+    # Experiment 2: Optimization of coefficient α
+    jupyter notebook notebook_2_stability_vs_alpha.ipynb
+    
+    # Experiment 3: 3D visualization of the mechanism
+    jupyter notebook notebook_3_3d_visualization.ipynb
+
+Advanced Extensions
+
+    # Replace the model system
+    from extended_models import LorenzSystem, RNNPredictor
+    
+    system = TemporalFeedbackSystem(
+        model=LorenzSystem(),
+        predictor=RNNPredictor(),
+        alpha=0.4
+    )
+
+## Theoretical References
+
+    Multidimensional Time Theories
+
+        S. Liberati, "Multitime Physics: An Overview", Foundations of Physics (2022)
+
+        J. Barbour, "The Nature of Time" (2020)
+
+    Systems with Future Memory
+
+        A. C. Elitzur, "On the Non-Causal Aspects of Quantum Mechanics" (2021)
+
+        R. Sorkin, "Quantum Measure Theory and Temporal Non-Locality" (2019)
+
+    Predictive Control and Feedback
+
+        Model Predictive Control Theory (Camacho & Bordons, 2007)
+
+        Causal Emergence in Complex Systems (Hoel et al., 2013)
+
+## Visualizations
+
+    1. 3D Time-Position-Velocity Diagram
+    
+    2. Stability Map as Function of α
+    
+    3. Comparative Time Evolution
+
+## Scientific Disclaimer
+
+This is a conceptual computational experiment. We make no claims about the physical nature of time or the validity of multiple temporal dimension theories. The project explores computational metaphors inspired by frontier ideas in theoretical physics.
 

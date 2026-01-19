@@ -42,13 +42,13 @@ Where:
 
     α ∈ [0,1]: Coefficient of "temporal trust" in the feedback
 
-Metaphorical Interpretation
+## Metaphorical Interpretation
 
 The experiment explores the hypothesis: If a system could "listen" to a faint echo of its own future, could it stabilize more rapidly?
 
 This is a conceptual extension of previous work Quantum Listening Time Simulator, where instead of "listening" to quantum states, we "listen" to temporal projections.
 
-Technical Implementation
+## Technical Implementation
 
 Core Class: TemporalFeedbackSystem
 
@@ -66,7 +66,7 @@ Core Class: TemporalFeedbackSystem
         # 3. Integration with "future" feedback
         new_state = (1-α)*natural_state + α*predicted_future
 
-Implemented Model Systems
+## Implemented Model Systems
 
     Damped Harmonic Oscillator - Reference system
 
@@ -74,7 +74,7 @@ Implemented Model Systems
 
     Recurrent Neural Networks - Adaptive system
 
-Analysis Metrics
+## Analysis Metrics
 
     Stability: Inverse of state variation norm
 

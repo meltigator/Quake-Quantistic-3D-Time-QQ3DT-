@@ -186,3 +186,6 @@ Advanced Extensions
 
 This is a conceptual computational experiment. We make no claims about the physical nature of time or the validity of multiple temporal dimension theories. The project explores computational metaphors inspired by frontier ideas in theoretical physics.
 
+## License
+
+MIT License - see LICENSE for details.

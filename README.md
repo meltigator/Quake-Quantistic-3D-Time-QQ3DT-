@@ -126,12 +126,6 @@ In Theoretical Physics
 
 ## How to Run the Experiment
 
-Installation
-
-    git clone https://github.com/meltigator/QQ3DT.git
-    cd QQ3DT
-    pip install -r requirements.txt
-
 Basic Experiments
 
     # Experiment 1: Comparison between different α values

@@ -99,7 +99,7 @@ Key Finding 3: "Critical Threshold" Effect
 
 Beyond a certain α value (typically 0.7-0.8), the system becomes unstable due to excessively strong feedback on imperfect predictions.
 
-##Applications and Implications##
+## Applications and Implications
 
 In Systems Theory
 
